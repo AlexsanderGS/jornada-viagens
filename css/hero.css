@@ -1,7 +1,22 @@
-.hero-img {
-  height: 400px;
+.hero .hero-img,
+.bottom-hero .hero-img {
   width: 100%;
-  background-image: url(../img/hero-mobile.jpg);
+  height: 400px;
+}
+
+.bottom-hero {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.hero .hero-img {
+  background: url(../img/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img {
+  background: url(../img/hero-footer-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,11 +31,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
-    width: 100%;
-    background-image: url(../img/hero-tablet.jpg);
+    background: url(../img/hero-tablet.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(/img/hero-footer-tablet.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -31,11 +51,16 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
-    width: 100%;
-    background-image: url(../img/hero-desktop.jpg);
+    background: url(../img/hero-desktop.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/hero-footer-destkop.jpg) no-repeat;
     background-size: cover;
   }
 
