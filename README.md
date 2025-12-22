@@ -53,7 +53,7 @@ jornada-viagens/
 O projeto está disponível online através do **GitHub Pages**:
 
 🔗 **Link do Deploy:**  
-> *Em breve* — _(será atualizado após a publicação)_
+> https://alexsandergs.github.io/jornada-viagens/
 
 ---
 
